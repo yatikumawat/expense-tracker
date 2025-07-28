@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title> Expense Tracker</title>
+  
+</head>
+<script type="module" src="./js/main.js"></script>
+
+<body>
+
+  <header>
+<h1> My Expense Tracker</h1>
+   
+         </header>
+
+  <section>
+    <input type="number" id="amount" placeholder="Amount " />
+ <input type="text" id="category" placeholder="Enter Category" />
+
+    <input type="text" id="description" placeholder="Description" />
+    <input type="date" id="date" />
+    <button id="add-expense">Add Expense</button>
+  </section>
+
+  
+  <section>
+    <input type="text" id="search" placeholder="Search Expenses..." />
+  </section>
+
+  <section id="expense-list">
+   
+  </section>
+
+  <section>
+    <h2>Total Spent: <span id="total">0</span></h2>
+    <ul id="category-summary">
+      
+    </ul>
+  </section>
+
+ 
+  
+</body>
+</html>
